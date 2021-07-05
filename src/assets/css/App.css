@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+
+
+/* COLORES
+
+ROSA > #EFB7BC;
+
+
+*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: "GFS Didot", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.App-logo {
+  height: 40vmin;
+  transition: transform 0.2s;
+  /* Animation */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1a3d42;
+  font-family: "Leckerli One", cursive;
+}
+
+.bienvenides {
+  margin: 0;
+  padding: 0;
+}
+
+.bem {
+  margin: 2px;
+  font-size: 1.5em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-logo:hover {
+  transform: scale(1.1);
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 80vh;
+}
+
+.text-wrap-home {
+  width: 50%;
+  margin: 2%;
+}
+
+.text-wrap-home > p {
+  font-family: "GFS Didot", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #92c998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10%;
+}
+
+#nav li {
+  font-family: "GFS Didot", serif;
+  font-size: 18px;
+  color: #1a3d42;
+  text-decoration: none;
+}
+
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a3d42;
+  border-right: 1px solid #1a3d42;
+}
+
+.footer {
+  width: 100%;
+  height: 9.3vh;
+  background-color: #92c998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "GFS Didot", serif;
+  font-size: 18px;
+  color: #1a3d42;
+  font-weight: 600;
+}
+
+.text-wrap-facilitadoras {
+  width: 50%;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-box {
+  width: 75%;
+  font-family: "GFS Didot", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text-wrap-contacto{
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.text-wrap-contacto > span{
+  padding: 20px;
+  text-align: start;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.text-wrap-contacto > span > svg {
+  margin-right: 20px;
+}

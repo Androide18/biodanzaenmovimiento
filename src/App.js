@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./assets/css/App.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./components/Home";
+import Intro from "./components/Intro";
+import Navbar from "./components/Navbar";
+import Biodanza from "./components/Biodanza";
+import Facilitadoras from "./components/Facilitadoras";
+import Clases from "./components/Clases";
+import Eventos from "./components/Eventos";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+          <Route exact path="/" component={Intro} />
+          <Route path="/home" component={Home} />
+          <Route path="/biodanza" component={Biodanza} />
+          <Route path="/facilitadoras" component={Facilitadoras} />
+          <Route path="/clases" component={Clases} />
+          <Route path="/eventos" component={Eventos} />
+          <Route path="/contacto" component={Contacto} />
+      </div>
+    </Router>
   );
 }
 
