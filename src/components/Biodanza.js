@@ -9,18 +9,31 @@ function Biodanza() {
   return (
     <div>
        <Navbar/>
-      <div className="home">
+      <div className="biodanza">
 
         <h1>¿QUÉ ES BIODANZA?</h1>
-        <div className="text-wrap-home">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
+        <div className="text-wrap-biodanza">
+         
+        <p>Es un sistema de integración afectiva para armonizar nuestro cuerpo, nuestras emociones y nuestras acciones. </p>
+        <p>Con música y movimiento danzamos nuestra propia existencia logrando un mayor bienestar.</p>
+        <p>  Es un espacio para desarrollar nuestras habilidades para transmitirlas, transformarnos, renovarnos e integrarnos.</p>
+        <p>  Un mundo donde poder conectarnos con la mirada, el abrazo, el movimiento natural.</p>
+        <p>Un espacio donde cada mirada anuncia el milagro de sentirnos vivos... calmar la mente y abrir el corazón.</p>
+    </div>
+    <div className="cuadro-biodanza">
+
+        <h2 style={{color: '#92c998'}} >Biodanza...</h2>
+
+        <h3><span  style={{color: '#92c998'}}>Bio:</span> vida   </h3>
+        <h3><span  style={{color: '#92c998'}}>danza:</span> movimiento pleno de sentido</h3>
+</div>
+<div  className="text-wrap-biodanza">
+        <p>Posibilidad de danzar tu propia vida. </p>
+        <p>Poner ritmo, armonía, emociones en la vida personal y también en la vida de la comunidad.</p>
+
+        <p>Está dirigida a estimular aspectos específicos de la persona, como la afectividad, la creatividad, la vitalidad. Por ello se han seleccionado grupos de ejercicios y de músicas que estimulan esas funciones universales.</p>
+
+       
         </div>
       </div>
       <Footer/>

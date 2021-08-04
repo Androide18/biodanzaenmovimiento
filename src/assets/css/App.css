@@ -5,6 +5,11 @@
 /* COLORES
 
 ROSA > #EFB7BC;
+VERDE > #93ca99;
+AMARILLO > #f3e98e;
+CELESTE > #9fd6e3;
+AZUL > #4fb4c3;
+VERDE OSCURO > #1a3d42;
 
 
 */
@@ -28,6 +33,8 @@ ROSA > #EFB7BC;
   transition: transform 0.2s;
   /* Animation */
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -68,21 +75,62 @@ ROSA > #EFB7BC;
 .home {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
   min-height: 80vh;
 }
 
+.clases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 80vh;
+  padding: 30px 0;
+}
+
 .text-wrap-home {
   width: 50%;
   margin: 2%;
+
 }
 
-.text-wrap-home > p {
+.text-wrap-clases {
+  width: 50%;
+  margin: 8%;
+  text-align: left;
+}
+
+.text-wrap-biodanza {
+  width: 50%;
+  margin: 2%;
+  text-align: left;
+}
+
+.text-wrap-home>p {
   font-family: "GFS Didot", serif;
   font-weight: bold;
   font-size: 18px;
+
+}
+
+.biodanza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 80vh;
+  padding: 30px 0;
+}
+
+
+.facilitadoras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 80vh;
+  padding: 30px 0;
 }
 
 .navbar {
@@ -148,19 +196,19 @@ ROSA > #EFB7BC;
 }
 
 .p-box {
-  width: 75%;
   font-family: "GFS Didot", serif;
   font-weight: bold;
   font-size: 18px;
+  text-align: left;
 }
 
-.text-wrap-contacto{
+.text-wrap-contacto {
   display: flex;
   flex-direction: column;
   margin: 5%;
 }
 
-.text-wrap-contacto > span{
+.text-wrap-contacto>span {
   padding: 20px;
   text-align: start;
   vertical-align: center;
@@ -168,6 +216,53 @@ ROSA > #EFB7BC;
   align-items: center;
 }
 
-.text-wrap-contacto > span > svg {
+.text-wrap-contacto>span>svg {
   margin-right: 20px;
+}
+
+.cuadro-biodanza {
+  margin: 5px;
+  padding: 4px;
+}
+
+
+h1 {
+  font-family: "Leckerli One", cursive;
+  letter-spacing: 4px;
+  padding: 10px 0;
+  margin: 30px 20px 10px;
+  color: #92c998;
+}
+
+h2 {
+  font-family: "Leckerli One", cursive;
+  letter-spacing: 4px;
+  padding: 5px 0;
+}
+
+h3 {
+  font-size: 22px;
+  letter-spacing: 4px;
+  padding: 10px 0;
+  color: rgb(239, 183, 188);
+}
+
+h4 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+h5 {
+  font-size: 18px;
+  padding: 10px 0;
+  color: #1a3d42;
+  letter-spacing: 2px;
+}
+
+
+.logo-tucan {
+  width: 180px;
+  position: fixed;
+  left: 25px;
+  top: 20px;
 }

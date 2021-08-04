@@ -21,7 +21,7 @@ function Contacto() {
         <div className="text-wrap-contacto">
         <span><FaInstagramSquare/> @biodanzaenmovimiento</span>  
         <span><FaFacebookF/> /Biodanzaenmovimiento </span>
-        <span><FaWhatsapp/> +54 376 00000000  // 376 1111111  </span>
+        <span><FaWhatsapp/> +54 9 3764 60-6399  // +54 9 3764 15-8085  </span>
         <span><FaRegEnvelope/> biodanzaenmovimiento@gmail.com  </span>
         </div>
       </div>

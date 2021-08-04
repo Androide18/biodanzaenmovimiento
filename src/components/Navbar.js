@@ -7,6 +7,11 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
+      <Link className="link-tucan" to="/">
+          <img src={logoRGB} className="logo-tucan" alt="logo" />
+        </Link>
+
+
         <ul id="nav">
           <li>
             <Link to="Biodanza">Biodanza</Link>

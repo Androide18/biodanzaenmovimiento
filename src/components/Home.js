@@ -11,17 +11,27 @@ function Home() {
        <Navbar/>
       <div className="home">
       
-        <img src={logoRGB} className="logo-RGB" alt="logo_RGB" />
-
         <div className="text-wrap-home">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
+          
+        <h4> MANIFIESTO</h4> 
+          <p>Somos la memoria del mundo.</p>
+          <p>Sólo debemos recordar lo que </p>
+          <p>está en nuestras células. </p>
+          <p>Los frutos del verano. </p>
+          <p>El amor voluptuoso. </p>
+          <p>La capacidad de ponerse </p>
+          <p>en el lugar del otro. </p>
+          <p>El contacto. </p>
+          <p>El coraje de innovar. </p>
+          <p>El abrazo, el adiós y el encuentro. </p>
+          <p>El mar en nuestra piel. </p>
+          <p>La música de la vida. </p>
+          <p>La danza de la vida. </p>
+          <p>Biodanza nos devuelve </p>
+          <p>la memoria ancestral, </p>
+          <p>la posibilidad absoluta de amor. </p>
+
+         
         </div>
       </div>
       <Footer/>
