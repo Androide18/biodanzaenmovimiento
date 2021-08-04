@@ -21,7 +21,7 @@ function Biodanza() {
     </div>
     <div className="cuadro-biodanza">
 
-        <h2 style={{color: '#92c998'}} >Biodanza...</h2>
+        <h2 style={{color: '#92c998', textAlign: 'center'}} >Biodanza...</h2>
 
         <h3><span  style={{color: '#92c998'}}>Bio:</span> vida   </h3>
         <h3><span  style={{color: '#92c998'}}>danza:</span> movimiento pleno de sentido</h3>

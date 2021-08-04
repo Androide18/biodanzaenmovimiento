@@ -223,8 +223,9 @@ VERDE OSCURO > #1a3d42;
 }
 
 .cuadro-biodanza {
-  margin: 5px;
-  padding: 4px;
+  margin: 5px 0;
+  padding: 4px 0;
+  text-align: start;
 }
 
 
@@ -269,7 +270,7 @@ h5 {
   top: 20px;
 }
 
-.rtLogo{
+.rtLogo {
   width: 100px;
   padding-bottom: 11px;
 }
