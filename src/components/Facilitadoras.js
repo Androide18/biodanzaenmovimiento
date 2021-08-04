@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/App.css";
-import logoRGB from "../assets/images/Logo_Color_RGB.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import mica from "../assets/images/mica.png";
