@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import logoRGB from "../assets/images/Logo_Color_RGB.png";
 
 function Navbar() {
+
+  
+
   return (
     <>
       <div className="navbar">
@@ -29,6 +32,7 @@ function Navbar() {
           <Link to="Contacto">Contacto</Link>
           </li>
         </ul>
+
       </div>
     </>
   );

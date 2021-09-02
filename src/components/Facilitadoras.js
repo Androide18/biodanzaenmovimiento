@@ -13,7 +13,7 @@ function Facilitadoras() {
         <h1>FACILITADORAS</h1>
         <div className="text-wrap-facilitadoras">
           <div className="card-box">
-            <img src={mica} alt="Mica" width="300px" />
+            <img src={mica} alt="Mica" className="img-mica" />
             <p className="p-box">
             <h3>María Inés Caramuto</h3>
 
@@ -33,7 +33,7 @@ function Facilitadoras() {
             </p>
           </div>
           <div className="card-box">
-            <img src={ami} alt="Ami" width="300px" />
+            <img src={ami} alt="Ami" className="img-ami" />
             <p className="p-box">
             <h3>Amanda Alsina</h3>
 

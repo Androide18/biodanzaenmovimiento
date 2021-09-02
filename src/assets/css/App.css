@@ -134,6 +134,11 @@ VERDE OSCURO > #1a3d42;
   padding: 30px 0;
 }
 
+
+.card-box > img{
+  width: 300px;
+}
+
 .navbar {
   width: 100%;
   height: 100px;
@@ -168,6 +173,7 @@ VERDE OSCURO > #1a3d42;
   color: #1a3d42;
   border-right: 1px solid #1a3d42;
 }
+
 
 .footer {
   width: 100%;
@@ -274,3 +280,98 @@ h5 {
   width: 100px;
   padding-bottom: 11px;
 }
+
+.author {
+  margin-top: 15px;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:700px) {
+
+  .logo-tucan {
+    width: 100px;
+    left: 2%;
+    top: 2%;
+  }
+
+
+  .text-wrap-home>p {
+    font-size: 0.9rem;
+  }
+
+  .author {
+    font-size: 1rem;
+  }
+
+  .rtLogo {
+    width: 60px;
+  }
+
+  .footer>p {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    height: 70px;
+  }
+
+
+  #nav {
+    right: 1%;
+  }
+
+  #nav li {
+    font-family: "GFS Didot", serif;
+    font-size: 15px;
+  }
+
+  #nav li a {
+    padding: 8px 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a3d42;
+    border-right: 1px solid #1a3d42;
+  }
+
+  .text-wrap-biodanza {
+    font-size: 0.9rem;
+  }
+
+  .cuadro-biodanza {
+    width: 50%;
+  }
+
+   h1{
+    font-size: 1.2rem;
+  }
+
+  .text-wrap-facilitadoras {
+    flex-direction: column;
+
+  }
+
+  .card-box {
+    width: 100%;
+  }
+
+  .card-box > img{
+    width: 200px;
+  }
+
+  .text-wrap-contacto {
+    font-size: 0.9rem;
+  }
+
+  .text-wrap-contacto>span {
+    padding: 7px;
+  }
+
+  .home{
+    min-height: 70vh;
+  }
+
+}
+
+/* END RESPONSIVE */
