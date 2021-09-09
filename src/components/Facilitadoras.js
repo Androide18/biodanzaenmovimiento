@@ -1,14 +1,26 @@
-import React from "react";
+import React, {useState} from "react";
 import "../assets/css/App.css";
 import Navbar from "../components/Navbar";
+import Sidebar from "./Sidebar";
 import Footer from "../components/Footer";
 import mica from "../assets/images/mica.png";
 import ami from "../assets/images/ami.png";
 
+
 function Facilitadoras() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
+
+
   return (
-    <div>
-      <Navbar />
+    <>
+         <Sidebar isOpen={isOpen} toggle={toggle}/>
+       <Navbar toggle={toggle}/>
       <div className="facilitadoras">
         <h1>FACILITADORAS</h1>
         <div className="text-wrap-facilitadoras">
@@ -46,7 +58,7 @@ function Facilitadoras() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

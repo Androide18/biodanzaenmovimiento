@@ -1,10 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import "../assets/css/App.css";
 import Navbar from "../components/Navbar";
+import Sidebar from "./Sidebar";
 import Footer from "../components/Footer";
 
 
 function Clases() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
 
 
   const ColoredLine = ({ color }) => (
@@ -20,8 +28,9 @@ function Clases() {
 );
 
   return (
-    <div>
-       <Navbar/>
+    <>
+        <Sidebar isOpen={isOpen} toggle={toggle}/>
+       <Navbar toggle={toggle}/>
       <div className="clases">
 
         <h1>CLASES</h1>
@@ -37,7 +46,7 @@ function Clases() {
         </div>
       </div>
       <Footer/>
-    </div>
+    </>
   );
 }
 
