@@ -33,7 +33,13 @@ function Navbar() {
           </li>
         </ul>
 
+        <MobileIcon>
+          <FaBars/>
+        </MobileIcon>
+
       </div>
+
+
     </>
   );
 }

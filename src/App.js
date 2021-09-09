@@ -1,8 +1,7 @@
 import "./assets/css/App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Intro from "./components/Intro";
-import Navbar from "./components/Navbar";
 import Biodanza from "./components/Biodanza";
 import Facilitadoras from "./components/Facilitadoras";
 import Clases from "./components/Clases";
@@ -13,6 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+       
           <Route exact path="/" component={Intro} />
           <Route path="/home" component={Home} />
           <Route path="/biodanza" component={Biodanza} />

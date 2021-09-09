@@ -1,21 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
 import "../assets/css/App.css";
 import Navbar from "../components/Navbar";
+import Sidebar from "./Sidebar";
 import Footer from "../components/Footer";
 import {FaFacebookF, FaInstagramSquare, FaWhatsapp, FaRegEnvelope} from "react-icons/fa";
 import {IconContext} from "react-icons";
 
 function Contacto() {
 
-  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
 
   return (
-    <div>
-
-<IconContext.Provider value ={{color: "#EFB7BC", size: "2em"}}>
+    <>
 
 
-       <Navbar/>
+
+
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+       <Navbar toggle={toggle}/>
       <div className="home">
         <div className="text-wrap-contacto">
         <span><FaInstagramSquare/> @biodanzaenmovimiento</span>  
@@ -25,8 +32,7 @@ function Contacto() {
         </div>
       </div>
       <Footer/>
-      </IconContext.Provider>
-    </div>
+    </>
   );
 }
 
