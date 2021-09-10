@@ -12,7 +12,11 @@ function Intro() {
         </Link>
         <p className="bienvenides">Bienvenides a</p>
         <p className="bem">Biodanza en Movimiento</p>
+        <Link className="entrar" to="/home">
+          <p >Entrar</p>
+        </Link>
       </div>
+     
     </>
   );
 }

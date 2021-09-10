@@ -33,6 +33,7 @@ function Facilitadoras() {
             <p>Profesora en Psicopedagogía.</p>
             <p> Lic. en Educación.</p>
             <p>Profesora de Biodanza.</p>
+            <p>Instructora de Yoga.</p>
 
             <h5>Posgrados</h5>  
 

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
 
 /* COLORES
@@ -64,6 +64,16 @@ VERDE OSCURO > #1a3d42;
   font-size: 1.5em;
 }
 
+.entrar {
+  color: #1a3d42;
+  margin-top: 10px;
+}
+
+.entrar:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -81,13 +91,24 @@ VERDE OSCURO > #1a3d42;
   margin-top: 5%;
 }
 
+
 .clases {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
   min-height: 80vh;
-  padding: 30px 0;
+  padding: 30px 0 0;
+  margin-top: 5%;
+}
+
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 80vh;
   margin-top: 5%;
 }
 
@@ -139,7 +160,7 @@ VERDE OSCURO > #1a3d42;
 }
 
 
-.card-box > img{
+.card-box>img {
   width: 300px;
 }
 
@@ -293,29 +314,29 @@ h5 {
 /* RESPONSIVE */
 
 @media only screen and (max-width:700px) {
-  
-  .home{
+
+  .home {
     min-height: 70vh;
     padding-top: 30%;
     padding-bottom: 10%;
   }
 
-  .facilitadoras{
+  .facilitadoras {
     padding-top: 20%;
     padding-bottom: 10%;
   }
 
-  .biodanza{
-    padding-top: 20%;
-    padding-bottom: 10%;
-  }
-  
-  .clases{
+  .biodanza {
     padding-top: 20%;
     padding-bottom: 10%;
   }
 
-  
+  .clases {
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+
   .logo-tucan {
     width: 100px;
     left: 2%;
@@ -361,16 +382,45 @@ h5 {
     border-right: 1px solid #1a3d42;
   }
 
+  .text-wrap-facilitadoras {
+    width: 75%;
+  }
+
+  .text-wrap-clases {
+    width: 75%;
+  }
+
+  .text-wrap-contacto {
+    width: 75%;
+  }
+
   .text-wrap-biodanza {
     font-size: 0.9rem;
+    width: 74%;
+    margin: 2%;
+    text-align: start;
+    line-height: 1.5;
   }
 
   .cuadro-biodanza {
-    width: 50%;
+    width: 75%;
+    margin: 20px 0;
   }
 
-   h1{
+  .cuadro-biodanza>h3 {
+    font-size: 1rem;
+    letter-spacing: 0;
+    padding: 3px 0;
+  }
+
+
+
+  h1 {
     font-size: 1.2rem;
+  }
+
+  h3 {
+    letter-spacing: 0;
   }
 
   .text-wrap-facilitadoras {
@@ -382,7 +432,7 @@ h5 {
     width: 100%;
   }
 
-  .card-box > img{
+  .card-box>img {
     width: 200px;
   }
 
