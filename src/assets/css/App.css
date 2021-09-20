@@ -159,6 +159,15 @@ VERDE OSCURO > #1a3d42;
   margin-top: 5%;
 }
 
+.inscripcionExitosa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  min-height: 80vh;
+}
+
 
 .card-box>img {
   width: 300px;
@@ -310,6 +319,51 @@ h5 {
   margin-top: 15px;
 }
 
+form{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #92c998;
+}
+
+:focus { outline: none; }
+
+.send-btn{
+  cursor: pointer;
+}
+
+.inscripcion-btn{
+  background-color:  #9fd6e3;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #1a3d42;
+
+}
+.inscripcion-btn:hover{
+  background-color: #afdbb5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 0.2s ease-in-out;
+  color: #1a3d42;
+}
+
+
+.contendor-pagos{
+  background-color: #1a3d42;
+  color: whitesmoke;
+}
+
+
+
 
 /* RESPONSIVE */
 
@@ -322,6 +376,11 @@ h5 {
   }
 
   .facilitadoras {
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  .inscripcionExitosa{
     padding-top: 20%;
     padding-bottom: 10%;
   }
