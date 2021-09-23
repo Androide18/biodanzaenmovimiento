@@ -21,6 +21,10 @@ VERDE OSCURO > #1a3d42;
   padding: 0;
 }
 
+b {
+  font-weight: 600;
+}
+
 .App {
   text-align: center;
   font-family: "GFS Didot", serif;
@@ -166,6 +170,7 @@ VERDE OSCURO > #1a3d42;
   align-items: center;
   background-color: whitesmoke;
   min-height: 80vh;
+  padding: 10% 0;
 }
 
 
@@ -319,7 +324,7 @@ h5 {
   margin-top: 15px;
 }
 
-form{
+form {
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -327,28 +332,32 @@ form{
   flex-direction: column;
 }
 
-input, textarea {
+input,
+textarea {
   margin: 5px;
   padding: 10px;
   border-radius: 10px;
   border: 2px solid #92c998;
 }
 
-:focus { outline: none; }
+:focus {
+  outline: none;
+}
 
-.send-btn{
+.send-btn {
   cursor: pointer;
 }
 
-.inscripcion-btn{
-  background-color:  #9fd6e3;
+.inscripcion-btn {
+  background-color: #9fd6e3;
   padding: 20px;
   border-radius: 20px;
   text-decoration: none;
   color: #1a3d42;
 
 }
-.inscripcion-btn:hover{
+
+.inscripcion-btn:hover {
   background-color: #afdbb5;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -357,13 +366,78 @@ input, textarea {
 }
 
 
-.contendor-pagos{
+.contendor-pagos {
   background-color: #1a3d42;
   color: whitesmoke;
 }
 
+.box-cuenta {
+  border: 3px solid #92c998;
+  padding: 25px;
+  border-radius: 20px;
+  line-height: 1.7;
+}
+
+.wrap-comprobante {
+  width: 50%;
+}
+
+.consultar {
+  color: #1a3d42;
+  font-size: 16px;
+}
+
+.box-evento {
+  display: flex;
+  justify-content: center;
+}
+
+.box-descripcion {
+  width: 50%;
+  padding: 20px;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+.titulo-evento {
+  text-align: center;
+}
+
+.poster {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.probervio {
+  width: 50%;
+  font-size: 15px;
+  margin-left: 50%;
+  text-align: end;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.doble {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  padding: 30px;
+  flex-direction: column;
+
+}
+
+.doble>.inscripcion-btn {
+  margin: 8px;
+}
 
 
+.elementos {
+  padding: 5px 0;
+  font-size: 16px;
+}
 
 /* RESPONSIVE */
 
@@ -380,7 +454,8 @@ input, textarea {
     padding-bottom: 10%;
   }
 
-  .inscripcionExitosa{
+  .inscripcionExitosa {
+
     padding-top: 20%;
     padding-bottom: 10%;
   }

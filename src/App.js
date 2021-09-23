@@ -9,6 +9,7 @@ import Eventos from "./components/Eventos";
 import Contacto from "./components/Contacto";
 import FormHook from "./components/FormHook";
 import InscripcionExitosa from "./components/InscripcionExitosa";
+import Formasdepago from "./components/Formasdepago";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contacto" component={Contacto} />
           <Route path="/form" component={FormHook} />
           <Route path="/inscripcionExitosa" component={InscripcionExitosa} />
+          <Route path="/formasdepago" component={Formasdepago} />
       </div>
     </Router>
   );

@@ -47,7 +47,10 @@ const HookForm = () => {
 
   <div className="facilitadoras">
     <br/><br/>
-  <p> ENCUENTRO BIOCÉNTRICO CON MÚSICA EN VIVO “DE ORUGA A MARIPOSA” </p>
+    <div className="titulo-evento">
+          <p> ENCUENTRO BIOCÉNTRICO CON MÚSICA EN VIVO </p> 
+          <p> “DE ORUGA A MARIPOSA” </p>
+          </div>
   <br/><br/>
        <h5>Formulario de Inscripción</h5>
   
