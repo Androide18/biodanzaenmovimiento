@@ -6,9 +6,8 @@ import Footer from "../components/Footer";
 import Formulario from "./Formulario";
 import FormHook from "./FormHook";
 import { Link } from "react-router-dom";
-import poster from "../assets/images/oruga.jpg";
+import poster from "../assets/images/oruga.png";
 
- 
 
 function Eventos() {
 

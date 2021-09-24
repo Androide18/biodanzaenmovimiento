@@ -3,8 +3,6 @@ import "../assets/css/App.css";
 import Navbar from "../components/Navbar";
 import Sidebar from "./Sidebar";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import poster from "../assets/images/oruga.jpg";
 
  
 
